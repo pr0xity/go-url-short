@@ -1,8 +1,8 @@
 # go-url-shortener
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/t0nyandre/go-url-shortener?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/t0nyandre/go-url-shortener?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/t0nyandre/go-url-shortener?style=for-the-badge)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pr0xity/go-url-short?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/pr0xity/go-url-short?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/pr0xity/go-url-short?style=for-the-badge)
 
 ## Table of contents
 
