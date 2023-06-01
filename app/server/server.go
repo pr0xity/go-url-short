@@ -5,8 +5,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/pr0xity/go-url-short/model"
-	"github.com/pr0xity/go-url-short/utils"
+	"github.com/pr0xity/go-url-short/app/model"
+	"github.com/pr0xity/go-url-short/app/utils"
 )
 
 func redirect(ctx *fiber.Ctx) error {
@@ -23,7 +23,7 @@ func redirect(ctx *fiber.Ctx) error {
 		fmt.Printf("error updating shrt: %v\n", err)
 	}
 
-	return ctx.Redirect(shrt.Original_url, fiber.StatusTemporaryRedirect)
+	return ctx.Redirect(shrt.Redirect, fiber.StatusTemporaryRedirect)
 }
 
 func getAllShrts(ctx *fiber.Ctx) error {

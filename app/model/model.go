@@ -10,11 +10,11 @@ import (
 var db *gorm.DB
 
 type Shrt struct {
-	ID           int    `json:"id"`
-	Original_url string `json:"original_url" gorm:"not null"`
-	Shrt         string `json:"shrt" gorm:"unique;not null"`
-	Clicked      int    `json:"clicked" gorm:"not null"`
-	Random       bool   `json:"random_url" gorm:"not null"`
+	ID       int    `json:"id"`
+	Redirect string `json:"redirect" gorm:"not null"`
+	Shrt     string `json:"shrt" gorm:"unique;not null"`
+	Clicked  int    `json:"clicked" gorm:"not null"`
+	Random   bool   `json:"random" gorm:"not null"`
 	// CreatedAt    time.Time `json:"created_at"`
 	// UpdatedAt    time.Time `json:"updated_at"`
 	// DeletedAt    time.Time `json:"deleted_at"`
