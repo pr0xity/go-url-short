@@ -1,3 +1,10 @@
 .PHONY: run
 run: 
-	@go run main.go
+	@go run app/main.go
+
+
+
+.PHONY: run-dev
+run-dev:
+	@go run app/main.go
+	@cd view && pnpm dev
