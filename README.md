@@ -1,4 +1,4 @@
-# go-url-shortener
+# go-url-short
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pr0xity/go-url-short?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/pr0xity/go-url-short?style=for-the-badge)
@@ -21,18 +21,18 @@ This project will be used for my url shortener service [shrt.be](https://shrt.be
 Clone the repository and
 
 ```bash
-make run
+make install
 ```
 
-This section will ofcourse be updated. Consider it a placeholder
+This will install pnpm and install all packages using pnpm (npm is required).
 
-## Usage
+## Development
 
 ```bash
-make run
+make run-dev
 ```
 
-to easilly run the application!
+to easilly run the application in dev mode!
 
 ## Contributing
 
