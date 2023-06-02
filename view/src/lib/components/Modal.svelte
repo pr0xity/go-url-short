@@ -76,13 +76,15 @@
 
   .contents {
     min-width: 500px;
-    border-radius: 6px;
-    padding: 16px;
-    background: white;
+    border-radius: 15px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     pointer-events: auto;
+    background-color: steelblue;
+    color: white;
+    margin: 20px 10px;
   }
 
   h2 {
