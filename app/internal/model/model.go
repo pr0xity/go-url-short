@@ -15,9 +15,9 @@ type Shrt struct {
 	Shrt     string `json:"shrt" gorm:"unique;not null"`
 	Clicked  int    `json:"clicked" gorm:"not null"`
 	Random   bool   `json:"random" gorm:"not null"`
-	// CreatedAt    time.Time `json:"created_at"`
-	// UpdatedAt    time.Time `json:"updated_at"`
-	// DeletedAt    time.Time `json:"deleted_at"`
+	// CreatedAt time.Time `json:"created_at"`
+	// UpdatedAt time.Time `json:"updated_at"`
+	// DeletedAt time.Time `json:"deleted_at"`
 }
 
 func Setup(host, port, username, password, database, timezone string) {

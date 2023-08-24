@@ -5,8 +5,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/pr0xity/go-url-short/app/model"
-	"github.com/pr0xity/go-url-short/app/utils"
+	"github.com/pr0xity/go-url-short/app/internal/model"
+	"github.com/pr0xity/go-url-short/app/internal/utils"
 )
 
 func redirect(ctx *fiber.Ctx) error {

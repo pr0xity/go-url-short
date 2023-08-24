@@ -4,12 +4,12 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/pr0xity/go-url-short/app/model"
-	"github.com/pr0xity/go-url-short/app/server"
+	"github.com/pr0xity/go-url-short/app/internal/model"
+	"github.com/pr0xity/go-url-short/app/internal/server"
 )
 
 func main() {
-	godotenv.Load()
+	godotenv.Load("../../../env/.env")
 	app_host, app_port, db_host, db_port, username, password, database, timezone :=
 		os.Getenv("APP_HOST"),
 		os.Getenv("APP_PORT"),
